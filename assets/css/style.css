@@ -1,0 +1,68 @@
+
+
+body {
+    background: url('../image/bg.png');
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 40px;
+    background: #ccc;
+}
+
+.score-keeper {
+    display: flex;
+    width: 100%;
+}
+
+.winning-number {
+    width: 50%;
+    padding: 40px;
+    background: #c3dd96;
+}
+.winning-number h1 {
+    font-size: 40px;
+}
+
+.win-lose {
+    width: 50%;
+    padding: 20px;
+    background: #3AFEFB;
+}
+
+.total-score {
+    width: 500px;
+    padding: 30px;
+    background: #fff;
+}
+
+.head-wrap {
+    text-align: center;
+}
+.head-wrap h1 {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 60px;
+    background: #80ede9;
+}
+
+.gems {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.gem {
+    display: inline-block;
+}
+.gem img {
+    width: 100px;
+}
+
+.my-score {
+    font-size: 40px;
+}
